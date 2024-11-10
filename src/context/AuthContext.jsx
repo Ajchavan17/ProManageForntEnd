@@ -59,7 +59,7 @@ export const AuthProvider = ({ children }) => {
       throw error;
     }
   };
-
+//added new comment
   const logout = () => {
     Cookies.remove("authToken");
     setIsAuthenticated(false);
