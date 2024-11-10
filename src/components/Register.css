@@ -1,0 +1,117 @@
+.header-container h1 {
+  font-size: 33.08px;
+  font-weight: 600;
+  line-height: 45.04px;
+
+  color: #343434;
+
+  margin-bottom: 88.2px;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error-container {
+  height: 22.18px;
+  width: 100%;
+
+  display: flex;
+  justify-self: start;
+  align-items: center;
+}
+
+.error-container p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+
+  color: #db371f;
+
+  height: 22.18px;
+  width: 100%;
+}
+
+.input-container div input {
+  width: 493px;
+  height: 55px;
+
+  box-sizing: border-box;
+  border: 1.38px solid #d0d0d0;
+  border-radius: 11.03px;
+
+  font-size: 19.29px;
+  font-weight: 400;
+  line-height: 26.28px;
+
+  padding-left: 55.13px;
+}
+
+.input-container div img {
+  position: absolute;
+
+  height: 33.08px;
+  width: 33.08px;
+  margin: 10.46px 0 0 10.46px;
+}
+
+.input-container div img:last-child {
+  position: absolute;
+  margin-left: -50px;
+}
+
+.btn-container {
+  margin-top: 21.92px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-container button {
+  width: 493.39px;
+  height: 55.13px;
+
+  border-radius: 55.13px;
+
+  font-size: 19.29px;
+  font-weight: 400;
+  line-height: 26.28px;
+}
+
+.btn-container button:first-child {
+  width: 493.39px;
+  height: 55.13px;
+
+  background-color: #17a2b8;
+  border: none;
+
+  color: #ffffff;
+
+  margin-bottom: 33.08px;
+}
+
+.btn-container p {
+  font-size: 19.29px;
+  font-weight: 400;
+  line-height: 26.28px;
+
+  color: #828282;
+
+  margin-bottom: 22.05px;
+}
+
+.btn-container button:last-child {
+  width: 493.39px;
+  height: 55.13px;
+
+  background-color: #ffffff;
+  border: 1.38px solid #17a2b8;
+
+  color: #17a2b8;
+}

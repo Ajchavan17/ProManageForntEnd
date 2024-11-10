@@ -1,0 +1,110 @@
+.task-main-container {
+  height: 100%;
+  display: flex;
+  flex-shrink: 0;
+  gap: 24px;
+  overflow-x: auto;
+}
+
+.task-category {
+  height: 100%;
+  width: 360px;
+  background-color: #eef2f5;
+  flex-shrink: 0;
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.stage-header {
+  margin: 24px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.stage-header h1 {
+  font-family: "Poppins";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.stage-header div {
+  display: flex;
+  align-items: center;
+
+  gap: 12px;
+}
+
+.plusIcon {
+  height: 14px;
+  width: 14px;
+}
+
+.collpaseIcon {
+  height: 18px;
+  width: 18px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 100%;
+
+  overflow-y: auto;
+  > * {
+    flex-shrink: 0;
+  }
+}
+/* scrollbar css */
+.task-main-container::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+  display: none; /* Hides the scrollbar arrows */
+}
+
+.task-main-container::-webkit-scrollbar {
+  height: 10px; /* Height of horizontal scrollbar */
+}
+
+.task-main-container::-webkit-scrollbar-track {
+  background: #eef2f5; /* Background of the scrollbar track */
+}
+
+.task-main-container::-webkit-scrollbar-thumb {
+  background: #888; /* Scrollbar color */
+  border-radius: 5px;
+}
+
+.task-main-container::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Scrollbar color on hover */
+}
+
+.task-main-container {
+  scrollbar-width: 10px; /* Width of scrollbar */
+  scrollbar-color: #9cb7c5 #ffff; /* Color of scrollbar thumb and track */
+}
+
+/* model css */
+.add-task-model {
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  z-index: 10;
+
+  height: 100vh;
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(48, 61, 67, 0.55);
+}

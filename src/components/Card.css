@@ -1,0 +1,205 @@
+.card-main-container {
+  height: auto;
+  width: 312px;
+
+  background-color: #ffff;
+
+  margin-bottom: 16px;
+  border-radius: 20px;
+
+  box-sizing: border-box;
+
+  padding: 24px;
+}
+
+.card-inner-container {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.card-top-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-top-container div:first-child {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.card-top-container h1 {
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+}
+
+.card-top-container div:last-child {
+  height: 15px;
+  width: 15px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #ffebeb;
+
+  border-radius: 50%;
+
+  font-family: "DM Sans";
+  font-size: 7px;
+  font-weight: 400;
+  line-height: 9.11px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+.proirity-dot {
+  height: 9px;
+  width: 9px;
+
+  border-radius: 50%;
+}
+
+.card-top-container img {
+  height: 16px;
+  width: 16px;
+
+  cursor: pointer;
+}
+
+.card-title {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+
+  margin-top: 8px;
+}
+
+.card-checklists-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 31px;
+}
+
+.card-checklists-container h1 {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+}
+.card-checklists-container img {
+  cursor: pointer;
+}
+
+.card-checklist-details-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 12px;
+
+  width: 100%;
+
+  gap: 10px;
+}
+
+.card-checklist-details-container div {
+  display: flex;
+  align-items: center;
+
+  height: 42px;
+  width: 100%;
+
+  border: 1px solid #e2e2e2;
+  border-radius: 10px;
+
+  gap: 10px;
+
+  box-sizing: border-box;
+
+  padding: 12px;
+}
+
+.card-checklist-details-container p {
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.94px;
+  text-align: left;
+}
+
+.card-checklist-details-container input {
+  height: 18px;
+  width: 18px;
+
+  border: 2px solid #e2e2e2;
+  border-radius: 6px;
+
+  cursor: pointer;
+}
+
+.bottom-btn-container {
+  margin-top: 27px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.due-date-container p {
+  height: 22px;
+  width: 53px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 8px;
+
+  /* background-color: #cf3636; */
+  color: #ffffff;
+
+  font-family: "Poppins";
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+
+  cursor: pointer;
+}
+
+.stage-btn-container {
+  display: flex;
+  gap: 6px;
+}
+
+.stage-btn-container button {
+  height: 22px;
+  width: auto;
+
+  border-radius: 8px;
+
+  background-color: #eeecec;
+  color: #767575;
+
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+
+  border: none;
+
+  cursor: pointer;
+
+  padding: 5px 10px 5px 10px;
+}

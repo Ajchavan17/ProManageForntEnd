@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.dashboard-container {
+  height: 100vh;
+  width: 100vw;
+
+  /* background-color: blue; */
+
+  display: flex;
+}
+
+.sidebar-container {
+  height: 100%;
+  width: 15%;
+
+  background-color: #ffffff;
+
+  border-right: 1px solid #edf5fe;
+}
+
+.main-container {
+  height: 100%;
+  width: 85%;
+
+  /* background-color: bisque; */
+
+  padding: 0px 0px 0px 31px;
+}
+
+.dashboard-header-container,
+.header2-container {
+  height: 8.98%;
+  width: 100%;
+
+  /* background-color: blueviolet; */
+
+  display: flex;
+  justify-content: space-between;
+
+  box-sizing: border-box;
+  padding: 0px 33px 0px 0px;
+}
+
+.main-content-container {
+  height: 77.73%;
+  width: 100%;
+
+  /* background-color: rgb(74, 18, 128); */
+}
+
+.welcome-details,
+.date-container,
+.header2-btn-container,
+.header2-filter-container {
+  height: 100%;
+  width: 20%;
+
+  /* background-color: rgb(70, 168, 207); */
+}
+
+.welcome-details h1 {
+  margin-top: 29px;
+
+  font-family: "Poppins";
+  font-size: 22px !important;
+  font-weight: 600;
+  line-height: 33px;
+  text-align: left;
+}
+
+.date-container p {
+  margin-top: 39px;
+
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: right;
+}
+
+.header2-btn-container {
+  /* margin-top: 28px; */
+
+  display: flex;
+  align-items: center;
+}
+
+.header2-btn-container h1 {
+  font-family: "Poppins";
+  font-size: 29px;
+  font-weight: 500;
+  line-height: 43.5px;
+  text-align: left;
+}
+
+.header2-btn-container a {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.header2-btn-container a img {
+  padding-left: 20px;
+
+  height: 16px;
+  width: 16px;
+}
+
+.header2-btn-container a p {
+  font-family: "Poppins";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+}
+
+.header2-filter-container {
+  /* margin-top: 40px; */
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.header2-filter-container p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+.header2-filter-container img {
+  height: 5px;
+  width: 11px;
+
+  padding-left: 8px;
+}
